@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:F:/project/EX4-1_OFFICIAL/EX4-1_OFFICIAL.srcs/constrs_1/new/UART.xdc rfile:../../../EX4-1_OFFICIAL.srcs/constrs_1/new/UART.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports CLK]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F17 [get_ports RX]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F16 [get_ports TX]

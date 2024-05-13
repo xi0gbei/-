@@ -1,0 +1,21 @@
+set_property PACKAGE_PIN J16 [get_ports {OUTPUT[0]}]
+set_property PACKAGE_PIN M15 [get_ports {OUTPUT[2]}]
+set_property PACKAGE_PIN N15 [get_ports PLUS]
+set_property PACKAGE_PIN N16 [get_ports MINUS]
+set_property PACKAGE_PIN T17 [get_ports CHA]
+set_property PACKAGE_PIN R17 [get_ports RST]
+set_property PACKAGE_PIN U18 [get_ports CLK]
+set_property IOSTANDARD LVCMOS33 [get_ports CHA]
+set_property IOSTANDARD LVCMOS33 [get_ports CLK]
+set_property IOSTANDARD LVCMOS33 [get_ports MINUS]
+set_property IOSTANDARD LVCMOS33 [get_ports PLUS]
+set_property IOSTANDARD LVCMOS33 [get_ports RST]
+set_property IOSTANDARD LVCMOS33 [get_ports {OUTPUT[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {OUTPUT[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {OUTPUT[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {OUTPUT[3]}]
+
+set_property PACKAGE_PIN M14 [get_ports {OUTPUT[3]}]
+set_property PACKAGE_PIN K16 [get_ports {OUTPUT[1]}]
+
+set_operating_conditions -grade extended
